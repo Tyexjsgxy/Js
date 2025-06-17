@@ -10,4 +10,11 @@ const num8 = Math.floor(Math.random() * 100) + 10;
 
 const result = num1 * num2 * num3 * num4 * num5 * num6 * num7 * num8 * num1 * num2 * num3 
 const result2 = result * Math.floor(Math.random() * 10) + 1;
-console.log(result2)
+
+if (result2 < 10000) {
+  console.log("Please repeat the number was to short")
+}
+
+else {
+  console.log(result2)
+}
