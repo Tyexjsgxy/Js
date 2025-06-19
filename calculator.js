@@ -1,7 +1,7 @@
 let number1 = 2;
 let number2 = 3;
-let operator = '*';
-
+let operator = '-';
+//Operators: +, -, /, *
 
 
 
