@@ -8,26 +8,26 @@ let operator = '-';
 let result = '';
 if (operator === '+') {
   let result = number1 + number2;
-console.log(result)
+console.log("The result is: " + result)
 
 }
 
 
 if (operator === '-') {
   let result = number1 - number2;
-console.log(result)
+console.log("The result is: " + result)
 
 }
 
 
 if (operator === '/') {
   let result = number1 / number2;
-console.log(result)
+console.log("The result is: " + result)
 
 }
 
 if (operator === '*') {
   let result = number1 * number2;
-console.log(result)
+console.log("The result is: " + result)
 
 }
